@@ -1,6 +1,38 @@
-* {
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-    border: 0;
+@import 'config.css';
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    background-color: var(--blue);
+}
+
+picture {
+    max-width: 100px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.acessLink>a {
+    padding: 0 10%;
+}
+
+.main {
+    background-color: var(--gray);
+}
+
+.footer {
+    height: 100px;
+    background-color: var(--lightGray);
+}
+
+.footerLink {
+    text-decoration: underline;
 }
