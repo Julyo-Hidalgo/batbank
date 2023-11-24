@@ -20,8 +20,14 @@ img {
     height: 100%;
 }
 
-.acessLink>a {
-    padding: 0 10%;
+.acessLink {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acessLink > *{
+    font-size: 20px;
 }
 
 .main {

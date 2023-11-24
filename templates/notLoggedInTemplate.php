@@ -7,6 +7,9 @@
     <link rel="favicon" href="assets/favicon/favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <?php addCSSLink($filePath); ?>
+
     <title>Digital bank</title>
 </head>
 
@@ -14,12 +17,14 @@
     <nav>
         <div class="container nav">
             <picture>
-                <img src="assets/png/logo-no-background.png" alt="logo" />
+                <a href="/">
+                    <img src="assets/png/logo-no-background.png" alt="logo" />
+                </a>
             </picture>
 
             <div class="acessLink">
-                <a href="signup.html">Sign Up</a>
-                <a href="login.html">Log In</a>
+                <a href="/signup">Sign Up</a>
+                <a href="/login">Log In</a>
             </div>
         </div>
     </nav>
