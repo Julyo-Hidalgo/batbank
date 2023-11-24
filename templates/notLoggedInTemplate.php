@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="favicon" href="assets/favicon/favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/notLoggedIn/style.css" type="text/css" />
 
-    <?php addCSSLink($filePath); ?>
+    <?php addCSSLink($styleFilePath); ?>
 
     <title>Digital bank</title>
 </head>

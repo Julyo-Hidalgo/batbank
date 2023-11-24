@@ -1,7 +1,9 @@
-@import 'config.css';
+@import '../config.css';
 
 .container {
     width: 100%;
+    max-width: 1630px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;

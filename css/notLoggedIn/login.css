@@ -1,0 +1,17 @@
+.form {
+    width: 100%;
+}
+
+.form, .form > * {
+    color: black;
+    display: block;
+    margin: 2% auto;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.submit {
+    width: 150px;
+    background-color: var(--blue);
+}
