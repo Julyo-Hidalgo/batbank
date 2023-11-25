@@ -1,0 +1,13 @@
+<form action="/account/login" method="post" class="form">
+    <input name="name" type="text" placeholder="Name" maxlength="11" required/>
+    <select id="countries" class="countries" required>
+        <option value="" selected hidden>Choose your country</option>
+        <option value="usa">Brasil</option>
+    </select>
+    <input name="cpf" type="text" placeholder="CPF" maxlength="11" required/>
+    <input name="birthday" type="date" placeholder="Birthday" maxlength="11" required/>
+    <input name="email" type="email" placeholder="Email" required/>
+    <input name="password" type="password" placeholder="Password" required/>
+
+    <button type="submit" class="submit">Log In</button>
+</form>

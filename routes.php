@@ -14,8 +14,8 @@ $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 if ($uri == '/') mountPage(HOME_PAGE_PATH, HOME_STYLE_PATH);
 
-if ($uri == '/login') mountPage(LOGIN_PAGE_PATH, LOGIN_STYLE_PATH);
+if ($uri == '/login') mountPage(LOGIN_PAGE_PATH, FORM_STYLE_PATH);
 
-if ($uri == '/signup') mountPage(SIGNUP_PAGE_PATH);
+if ($uri == '/signup') mountPage(SIGNUP_PAGE_PATH, FORM_STYLE_PATH);
 
 if ($uri == '/account/login') echo 'save';
