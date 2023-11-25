@@ -2,7 +2,7 @@
 
 function mountPage(string $pagePath, $styleFilePath = null)
 {
-    include 'templates/notLoggedInTemplate.php';
+    include 'view/templates/notLoggedInTemplate.php';
 }
 
 function addCSSLink($styleFilePath = null)
@@ -17,3 +17,5 @@ if ($uri == '/') mountPage(HOME_PAGE_PATH, HOME_STYLE_PATH);
 if ($uri == '/login') mountPage(LOGIN_PAGE_PATH, LOGIN_STYLE_PATH);
 
 if ($uri == '/signup') mountPage(SIGNUP_PAGE_PATH);
+
+if ($uri == '/account/login') echo 'save';

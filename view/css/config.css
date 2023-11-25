@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    border: 0;
+    list-style: none;
+    color: white;
+    font-family: "Bangers";
+    text-decoration: none;
+    font-size: 18px;
+}
+
+:root {
+    --lightBrown: #6E2A1B;
+    --darkBrown: #451B11;
+    --base: #913824;
+    --orange: #E85A3A;
+    --darkOrange: #BF4A30;
+}

@@ -1,0 +1,49 @@
+@import '../config.css';
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.nav {
+    background-color: var(--base);
+    margin-top: 0px;
+}
+
+picture {
+    max-width: 100px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.acessLink {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acessLink > *{
+    font-size: 25px;
+}
+
+.main {
+    background-color: var(--orange);
+}
+
+.footer {
+    height: 100px;
+    background-color: var(--darkOrange);
+    margin-bottom: 0;
+}
+
+.footerLink {
+    text-decoration: underline;
+}
